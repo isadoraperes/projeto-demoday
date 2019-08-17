@@ -1,4 +1,97 @@
+
 body{
-    margin: 0;
-    
+background: #E5E5E5;
+}
+
+.margem{
+background: rgba(232, 193, 217, 0.4);
+height: 2847px;
+left: 17px;
+position: absolute;
+top: 0px;
+width: 990px;  
+}
+
+nav{
+background: #C4C4C4;
+height: 72px;
+left: 0px;
+position:absolute;
+top: 0px;
+width: 1024px;
+}
+
+.P{
+color: #000000;
+font-family: Roboto;
+font-style: normal;
+font-size: 24px;
+font-weight: normal;
+height: 28px;
+left: 642px;
+line-height: 28px; 
+position: absolute;
+top: 22px;
+width: 77px;
+}
+
+.S{
+color: #000000;
+font-family: Roboto;
+font-style: normal;
+font-size: 24px;
+font-weight: normal;
+height: 28px;
+left: 742px;
+line-height: 28px;
+position: absolute;
+top: 22px;
+width: 63px;
+}
+
+.B{
+color: #000000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+left: 845px;
+line-height: 28px;
+position: absolute;
+height: 28px;
+top: 22px;
+width: 48px;
+}
+
+.L{
+color: #000000;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+height: 28px;
+left: 932px;
+line-height: 28px;
+position: absolute;
+top: 22px;
+width: 60px;
+}
+
+.fundo{
+background: url(vr.jpg);
+height: 355px;
+left: 17px;
+position: absolute;
+top: 108px;
+width: 990px;
+}
+
+.caixaCinza{
+background: url(vr.jpg);
+height: 355px;
+left: 17px;
+position: absolute;
+top: 108px;
+width: 990px;
+
 }
