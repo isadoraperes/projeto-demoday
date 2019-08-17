@@ -21,6 +21,22 @@ top: 0px;
 width: 1024px;
 }
 
+h1{
+align-items: center;
+color: #000000;
+display: flex;
+height: 67px;
+left: 44px;
+line-height: 56px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+position: absolute;
+top: 126px;
+width: 258px;
+}
+
 .P{
 color: #000000;
 font-family: Roboto;
@@ -87,11 +103,141 @@ width: 990px;
 }
 
 .caixaCinza{
-background: url(vr.jpg);
-height: 355px;
+background: #C4C4C4;
+height: 137px;
 left: 17px;
 position: absolute;
 top: 108px;
+width: 308px;
+}
+
+.aprenda{
+align-items: center; 
+color: #000000;  
+display: flex;
+font-family:Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+height: 112px;
+position: absolute;
+left: 17px;
+line-height: 28px;
+top: 272px;
+width: 308px;
+}
+
+.botao1{
+background: #C4C4C4;
+border-radius: 5px;
+height: 47px;
+left: 26px;
+position: absolute;
+top: 415px;
+width: 140px;
+}
+
+.botao1.b1{
+align-items: center;
+color: #000000;
+display: flex;
+height: 23px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+left: 38px;
+line-height: 28px;
+position: absolute;
+text-align: center;
+top: 427px;
+width: 113px;
+}
+
+.botao2{
+background: #C4C4C4;
+border-radius: 5px;
+height: 47px;
+left: 191px;
+position: absolute;
+top: 415px;
+width: 140px;
+}
+
+.botao2.b2{
+align-items: center;
+color: #000000;
+display: flex;
+left: 205px;
+line-height: 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+height: 23px;
+position: absolute;
+text-align: center;
+top: 427px;
+width: 113px;
+}
+
+.caixaCinzaT{
+background: #C4C4C4;
+height: 83px;
+left: 17px;
+position: absolute;
+top: 552px;
 width: 990px;
 
+}
+h3{
+align-items: center;
+color: #000000;
+display: flex;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+height: 83px;
+line-height: 28px;
+left: 17px;
+position: absolute;
+text-align: center;
+top: 552px;
+width: 990px;
+}
+
+.caixaCinza2{
+background: #C4C4C4;
+height: 54px;
+left: 17px;
+position: absolute;
+top: 641px;
+width: 990px;
+
+}
+p{
+align-items: center;
+color: #000000;
+display: flex;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: normal;
+height: 52px;
+left: 17px;
+line-height: 21px;
+position: absolute;
+text-align: center;
+top: 641px;
+width: 990px;
+}
+
+.imgSection{
+background: url(2498170.jpg);
+height: 443px;
+left: 17px;
+position: absolute;
+top: 728px;
+width: 990px;
 }
