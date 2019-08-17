@@ -4,12 +4,13 @@ background: #E5E5E5;
 }
 
 .margem{
-background: rgba(232, 193, 217, 0.4);
+background: rgba(232, 193, 217, 0.4);  
 height: 2847px;
 left: 17px;
 position: absolute;
 top: 0px;
-width: 990px;  
+width: 990px;
+    
 }
 
 nav{
@@ -37,26 +38,77 @@ top: 0px;
 width: 258px;
 }
 
-.P{
+.p1{
+align-items: center;
+align-items: initial;
+color: #000000;
+display: flex;
+height: 167px;
+position: unset;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+left: 17px;
+line-height: 28px;
+top: 108px;
+text-align: center;
+width: 308px;
+}
+
+.aprenda{
+align-items: center;
+color: #000000;
+display: flex;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+height: 112px;
+left: 17px;
+line-height: 28px;
+position: absolute;
+top: 272px;
+width: 308px;
+}
+
+.caixaCinza{
+background: #C4C4C4;
+align-items: initial
+height: 115px;
+left: 17px;
+position: unset;
+top: 108px;
+width: 308px;
+}
+
+a{
 color: #000000;
 font-family: Roboto;
 font-style: normal;
-font-size: 24px;
 font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration:none;
+}
+
+.logo{
 height: 28px;
-left: 642px;
-line-height: 28px; 
+left: 23px;
 position: absolute;
 top: 22px;
+width: 54px;
+}
+
+.P{
+position: absolute;
 width: 77px;
+height: 28px;
+left: 642px;
+top: 22px;
 }
 
 .S{
-color: #000000;
-font-family: Roboto;
-font-style: normal;
-font-size: 24px;
-font-weight: normal;
 height: 28px;
 left: 742px;
 line-height: 28px;
@@ -66,11 +118,6 @@ width: 63px;
 }
 
 .B{
-color: #000000;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: normal;
 left: 845px;
 line-height: 28px;
 position: absolute;
@@ -80,11 +127,6 @@ width: 48px;
 }
 
 .L{
-color: #000000;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
 height: 28px;
 left: 932px;
 line-height: 28px;
@@ -102,14 +144,6 @@ top: 108px;
 width: 990px;
 }
 
-.caixaCinza{
-background: #C4C4C4;
-height: 137px;
-left: 17px;
-position: absolute;
-top: 108px;
-width: 308px;
-}
 
 .aprenda{
 align-items: center; 
@@ -128,51 +162,51 @@ width: 308px;
 }
 
 .b1{
+align-items: center;
 background: #C4C4C4;
 border-radius: 5px;
-height: 47px;
-left: 26px;
-position: absolute;
-top: 415px;
-width: 140px;
-align-items: center;
 color: #000000;
 display: flex;
 height: 23px;
+height: 47px;
 font-family: Roboto;
 font-style: normal;
-font-weight: normal;
 font-size: 24px;
+font-weight: normal;
+left: 26px;
 left: 38px;
 line-height: 28px;
 position: absolute;
+position: absolute;
 text-align: center;
 top: 427px;
+top: 415px;
 width: 113px;
+width: 140px;
 }
 
 .b2{
+align-items: center;
 background: #C4C4C4;
 border-radius: 5px;
-height: 47px;
-left: 191px;
-position: absolute;
-top: 415px;
-width: 140px;
-align-items: center;
 color: #000000;
 display: flex;
-left: 205px;
-line-height: 28px;
 font-family: Roboto;
 font-style: normal;
-font-weight: normal;
 font-size: 24px;
+font-weight: normal;
 height: 23px;
+height: 47px;
+left: 191px;
+left: 205px;
+line-height: 28px;
+position: absolute;
 position: absolute;
 text-align: center;
+top: 415px;
 top: 427px;
 width: 113px;
+width: 140px;
 }
 
 .caixaCinzaT{
@@ -403,3 +437,5 @@ position: absolute;
 width: 1024px;
 top: 2775px;
 }
+
+/*  
