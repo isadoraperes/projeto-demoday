@@ -22,3 +22,34 @@ def cadastrar(request):
 
     return render(request, 'cadastrar.html', context)
 
+def login(request):
+
+    if request.method == 'POST':
+        email_acesso = request.POST.get('email')
+        pessoa = Pessoa.objects.filter(email=email_acesso).first()
+
+        if pessoa is None:
+            context = {'msg':'Cadastre-se para acesso ao site'}
+            return render(request,'cadastrar.html', context)
+        else:
+            context = {'email' : pessoa}
+            return render(request, 'perfil.html', context)
+    return render(request, 'login.html', {})
+#     context = {}
+#     if request.method == 'POST'
+#         pessoa_email = request.POST.get('email')
+#         bd_email = Pessoa.objects.filter(email=pessoa_email).first()
+#         if bd_email is not None:
+#              argumento = {
+#             'pessoa': bd_email
+#             }
+#          return render(request, 'cadastrar.html',argumento)
+#         return render(request, 'login.html',{'msg' : 'Invalido'})
+#     return render(request, 'login.html', context)
+
+# def perfil(request):
+
+#     context = {}
+
+
+
