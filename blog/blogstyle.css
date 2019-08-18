@@ -1,0 +1,86 @@
+:root {
+    --main-font: 'PT Mono', monospace;
+    --second-font: 'PT Mono', monospace;
+    --keycolor: rgba(7, 7, 8, 0.281);
+    --text-color: #35123A;
+  }
+  
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: var(--main-font);
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: #5827B4;
+    color: white;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar .links ul li {
+    margin-left: 20px;
+    list-style: none;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+ul, li, p, a {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: 'PT Mono', monospace;
+    text-decoration: none;
+    color: #F3EFFE;
+}
+
+/* ABOUT SECTION */
+
+.about {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* CSS GRID PROJECTS */
+
+.articles {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 12px;
+    max-width: 1024px;
+}
