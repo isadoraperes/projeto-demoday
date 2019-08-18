@@ -1,441 +1,97 @@
-
 body{
-background: #E5E5E5;
-}
-
-.margem{
-background: rgba(232, 193, 217, 0.4);  
-height: 2847px;
-left: 17px;
-position: absolute;
-top: 0px;
-width: 990px;
-    
+    background: white;
+    width: 1024px;
 }
 
 nav{
-background: #C4C4C4;
-height: 72px;
-left: 0px;
-position:absolute;
-top: 0px;
-width: 1024px;
-}
-
-h1{
-align-items: center;
-color: #000000;
-display: flex;
-height: 72px;
-left: 0px;
-line-height: 56px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-position: absolute;
-top: 0px;
-width: 258px;
-}
-
-.p1{
-align-items: center;
-align-items: initial;
-color: #000000;
-display: flex;
-height: 167px;
-position: unset;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-left: 17px;
-line-height: 28px;
-top: 108px;
-text-align: center;
-width: 308px;
-}
-
-.aprenda{
-align-items: center;
-color: #000000;
-display: flex;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: normal;
-height: 112px;
-left: 17px;
-line-height: 28px;
-position: absolute;
-top: 272px;
-width: 308px;
-}
-
-.caixaCinza{
-background: #C4C4C4;
-align-items: initial
-height: 115px;
-left: 17px;
-position: unset;
-top: 108px;
-width: 308px;
-}
-
-a{
-color: #000000;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-decoration:none;
+    background: #5827B4;
+    height: 80px;
+    position: absolute;
+    width: 1440px;
 }
 
 .logo{
-height: 28px;
-left: 23px;
-position: absolute;
-top: 22px;
-width: 54px;
+    align-items: center;
+    bottom: 27.5%;
+    color: #FFFFFF;
+    display: flex;
+    font-family: PT Mono;
+    font-size: 28px;
+    left: 15.62%;
+    line-height: 36px;
+    right: 72.36%;
+    top: 27.5%;
+    position: absolute;
 }
 
 .P{
-position: absolute;
-width: 77px;
-height: 28px;
-left: 642px;
-top: 22px;
+    align-items: center;
+    bottom: 32.5%;
+    color: #FFFFFF;
+    display: flex;
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    left: 49.17%;
+    line-height: 160%;
+    right: 43.47%;
+    text-align: right;
+    top: 31.25%;
+    position: absolute;
 }
 
 .S{
-height: 28px;
-left: 742px;
-line-height: 28px;
-position: absolute;
-top: 22px;
-width: 63px;
+    align-items: center;
+    bottom: 32.5%;
+    color: white;
+    display: flex;
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    left: 59.03%;
+    line-height: 160%;
+    right: 35%;
+    text-align: right;
+    top: 31.25%;
+    position: absolute;
 }
-
 .B{
-left: 845px;
-line-height: 28px;
-position: absolute;
-height: 28px;
-top: 22px;
-width: 48px;
+    align-items: center;
+    bottom: 32.5%;
+    color: #FFFFFF;
+    display: flex;
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    left: 67.43%;
+    line-height: 160%;
+    right: 27.99%;
+    text-align: right;
+    top: 31.25%;
+    position: absolute;
 }
-
 .L{
-height: 28px;
-left: 932px;
-line-height: 28px;
-position: absolute;
-top: 22px;
-width: 60px;
-}
-
-.fundo{
-background:url('../imagens/vr.png');
-height: 355px;
-left: 17px;
-position: absolute;
-top: 108px;
-width: 990px;
-}
-
-
-.aprenda{
-align-items: center; 
-color: #000000;  
-display: flex;
-font-family:Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-height: 112px;
-position: absolute;
-left: 17px;
-line-height: 28px;
-top: 272px;
-width: 308px;
-}
-
-.b1{
-align-items: center;
-background: #C4C4C4;
-border-radius: 5px;
-color: #000000;
-display: flex;
-height: 23px;
-height: 47px;
-font-family: Roboto;
-font-style: normal;
-font-size: 24px;
-font-weight: normal;
-left: 26px;
-left: 38px;
-line-height: 28px;
-position: absolute;
-position: absolute;
-text-align: center;
-top: 427px;
-top: 415px;
-width: 113px;
-width: 140px;
-}
-
-.b2{
-align-items: center;
-background: #C4C4C4;
-border-radius: 5px;
-color: #000000;
-display: flex;
-font-family: Roboto;
-font-style: normal;
-font-size: 24px;
-font-weight: normal;
-height: 23px;
-height: 47px;
-left: 191px;
-left: 205px;
-line-height: 28px;
-position: absolute;
-position: absolute;
-text-align: center;
-top: 415px;
-top: 427px;
-width: 113px;
-width: 140px;
-}
-
-.caixaCinzaT{
-background: #C4C4C4;
-height: 83px;
-left: 17px;
-position: absolute;
-top: 552px;
-width: 990px;
+    align-items: center;
+    bottom: 17.5%;
+    bottom: 33.33%;
+    color: #FFFFFF;
+    display: flex;
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    left: 14.29%;
+    left: 75.35%;
+    line-height: 160%;
+    text-align: center;
+    right: 13.57%;
+    right: 15.56%;
+    position: absolute;
+    top: 17.5%;
+    top: 33.33%;
 
 }
 
-h3{
-align-items: center;
-color: #000000;
-display: flex;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: normal;
-height: 83px;
-line-height: 28px;
-left: 17px;
-position: absolute;
-text-align: center;
-top: 552px;
-width: 990px;
-}
-
-.caixaCinza2{
-background: #C4C4C4;
-height: 54px;
-left: 17px;
-position: absolute;
-top: 641px;
-width: 990px;
-
-}
-p{
-align-items: center;
-color: #000000;
-display: flex;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: normal;
-height: 52px;
-left: 17px;
-line-height: 21px;
-position: absolute;
-text-align: center;
-top: 641px;
-width: 990px;
-}
-
-.imgSection{
-background: url('../imagens/2498170.png');
-height: 443px;
-left: 17px;
-position: absolute;
-top: 728px;
-width: 990px;
-}
-.caixaCinzaes{
-background: #C4C4C4;
-left: 346px;
-height: 73px;
-position: absolute;
-top: 1215px;
-width: 661px;
-}
-
-.imgArticle1{
-background: url("../imagens/2312299.png");
-height: 433px;
-left: 17px;
-position: absolute;
-top: 1215px;
-width: 319px;
-}
-
-.textoes{
-background: #C4C4C4;
-height: 281px;
-left: 346px;
-position: absolute;
-top: 1304px;
-width: 661px;
-}
-
-.b3{
-align-items: center;
-align-items: center;
-color: #000000;
-color: #000000;
-display: flex;
-display: flex;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: normal;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-height: 47px;
-height: 47px;
-left: 431px;
-left: 431px;
-line-height: 28px;
-line-height: 28px;
-position: absolute;
-position: absolute;
-text-align: center;
-text-align: center;
-top: 1601px;
-top: 1601px;
-width: 166px;
-width: 166px;
-}
-
-.b4{
-align-items: center;
-background: #C4C4C4;
-border-radius: 5px;
-color: #000000;
-display: flex;
-height: 47px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-height: 47px;
-left: 754px;
-left: 773px;
-position: absolute;
-position: absolute;
-text-align: center;
-top: 1601px;
-top: 1601px;
-width: 166px;
-width: 202px;
-}
-
-.caixaCinzaT2{
-background: #C4C4C4;
-height: 83px;
-left: 17px;
-position: absolute;
-top: 1697px;
-width: 990px;
-}
-
-.caixaCinzaS{
-background: #C4C4C4;
-height: 54px;
-left: 17px;
-position: absolute;
-top: 1786px;
-width: 990px;
-}
-
-.imgArticle2{
-background: url(../imagens/2118039.png);
-height: 372px;
-left: 17px; 
-position: absolute;
-top: 1858px;
-width: 990px;
-}
-.caixaCinzadr{
-background: #C4C4C4;
-height: 73px;
-left: 17px;
-position: absolute;
-top: 2264px;
-width: 661px;
-
-}
-
-.textodr{          
-background: #C4C4C4;
-height: 281px;
-position: absolute;
-left: 17px;
-width: 661px;
-top: 2353px;
-
-}
-.imagemmain{
-background: url('../imagens/473266-PH3II4-143.png');
-height: 433px;
-left: 690px;
-position: absolute;
-top: 2264px;
-width: 317px;
-
-}
-.b5{
-align-items: center;
-background: #C4C4C4;
-border-radius: 5px;
-color: #000000;
-display: flex;
-font-style: normal;
-font-family: Roboto;
-font-size: 24px;
-font-weight: normal;
-height: 47px;
-height: 47px;
-left: 97px;
-left: 97px;
-line-height: 28px;
-position: absolute;
-position: absolute;
-text-align: center;
-top: 2650px;
-top: 2650px;
-width: 495px;
-width: 495px;
-}
-.rodape{
-background: #C4C4C4;
-height: 72px;
-left: 0px;
-position: absolute;
-width: 1024px;
-top: 2775px;
-}
-
-/*  
