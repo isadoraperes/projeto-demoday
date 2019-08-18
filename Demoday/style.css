@@ -80,8 +80,10 @@ header {
 
 .aprenda {
     color:#35123A;
-    line-height: 1.8rem;
-    margin-bottom: 10px;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-size: 0.8rem;
+    font-family: 'PT Mono', monospace;
 }
 
 .b1 {
@@ -104,6 +106,8 @@ header {
 }
 
 
+
+}
 /* grid 2 */
 
 .section{
@@ -173,6 +177,19 @@ header {
     text-align: center;
    
 }
+.section4{
+    background: #FEE9E8;
+    
+    
+}
+.text .p1{
+    display: flex;
+    color: #5827B4;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+   
+}
 .container5 {
     align-items: center;
     background: #FEE9E8;
@@ -181,7 +198,8 @@ header {
     grid-template-areas: "conteudo conteudo img";
     justify-content: center;
     height: 500px;
-    /*width: 1024px;*/
+    width: 1024px;
+    margin: 0 auto;
 }
 
 .conteudo5 {
@@ -195,19 +213,21 @@ header {
 }
 
 .p1 {
-    text-align: center;
-    color: #5827B4;;
-    font-size: 2.5rem;
+    
+    color: #FF4074;
+    font-size: 2.3rem;
     font-weight: 900;
     margin-bottom: 30px; 
+    margin-left: 0px;
     margin-top: 10px;
 }
 
 .articulo {
-    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
     color:#35123A;
-    line-height: 1.8rem;
     margin-bottom: 10px;
+   
 }
 .img5 {
     /* background: #5827B4; */
@@ -228,7 +248,7 @@ header {
 
 .time {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .pessoa {
