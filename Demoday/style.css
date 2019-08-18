@@ -60,26 +60,26 @@ header {
 }
 
 .aprenda {
+    color:#35123A;
     line-height: 1.8rem;
     margin-bottom: 10px;
-    color:#35123A;
 }
 
 .b1 {
     background: #5827B4;
     border-radius: 10px;
     border: none;
-    padding: 15px;
-    font-size: 1.2rem;
-    font-family: 'PT Mono', monospace;
     color: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 1.2rem;
     font-weight: 600;
+    padding: 15px;
 }
 
 .img1 {
-    grid-area: img;
     /* background: #5827B4; */
     display: flex;
+    grid-area: img;
     justify-content: center;
     object-fit: cover;
 }
@@ -87,26 +87,63 @@ header {
 
 /* grid 2 */
 
-section {
-
-}
 
 .container2 {
-background: #F3EFFE;
-display: grid;
-grid-template-columns: 1fr;
-grid-template-areas: "sobrepor";
+    background: #F3EFFE;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "sobrepor";
 
 
 }
 
 .text2{
-    text-align: center;
     grid-area: sobrepor;
+    padding-top: 120px;
+    text-align: center;
     z-index: 1;
+}
+.text2 h1{
+    color: #FF4074;
+}
+.text2 p{
+    color: #35123A;
 }
 
 .img2 {
-    text-align: center;
     grid-area: sobrepor;
+    text-align: center;
+}
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-areas: "img conteudo conteudo";
+    height: 500px;
+    justify-content: center;
+}
+
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    grid-area: conteudo;
+    justify-content: center;
+    margin-right: 20px;
+    z-index: 1;
+
+}
+
+.text4{
+    padding-top: 120px;
+    text-align: center;
+    z-index: 1;
+}
+.text4 h1{
+    color: #FF4074;
+}
+.text4 p{
+    color: #35123A;
+}
+.img4 {
+    text-align: center;
+   
 }
