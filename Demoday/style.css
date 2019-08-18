@@ -9,7 +9,7 @@ body, ul, li, p, a {
 .logo p{
     margin: 0px;
     padding: 0px;
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     font-family: 'PT Mono', monospace;
     text-decoration: none;
     color: #F3EFFE;
@@ -28,12 +28,24 @@ nav {
 }
 
 .nav-bar .links ul li {
+    align-items: center;
+    display: flex;
     margin-left: 20px;
     list-style: none;
     text-decoration: none;
     text-decoration-color: white;
 }
-
+.btn-login{
+    background: #FF4074;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+    
+}
 /* grid */
 
 header {
@@ -231,7 +243,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
+    height: 50px;
     background: #F3EFFE;
     color: #5827B4;
 }
