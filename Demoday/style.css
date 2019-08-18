@@ -6,7 +6,14 @@ body, ul, li, p, a {
     text-decoration: none;
     color: #F3EFFE;
 }
-
+.logo p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.8rem;
+    font-family: 'PT Mono', monospace;
+    text-decoration: none;
+    color: #F3EFFE;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -87,27 +94,34 @@ header {
 
 /* grid 2 */
 
-
-.container2 {
+.section{
     background: #F3EFFE;
+    
+}
+.container2 {
+    
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "sobrepor";
-
+    margin: 0 auto;
+    width: 1024px;
 
 }
 
 .text2{
     grid-area: sobrepor;
-    padding-top: 120px;
+    padding-top: 20px;
     text-align: center;
     z-index: 1;
+    
 }
 .text2 h1{
+    padding-bottom: 40px;
     color: #FF4074;
 }
 .text2 p{
     color: #35123A;
+    padding-bottom: 100px;
 }
 
 .img2 {
@@ -146,4 +160,92 @@ header {
 .img4 {
     text-align: center;
    
+}
+.container5 {
+    align-items: center;
+    background: #FEE9E8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-areas: "conteudo conteudo img";
+    justify-content: center;
+    height: 500px;
+    /*width: 1024px;*/
+}
+
+.conteudo5 {
+    grid-area: conteudo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    z-index: 1;
+
+}
+
+.p1 {
+    text-align: center;
+    color: #5827B4;;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 30px; 
+    margin-top: 10px;
+}
+
+.articulo {
+    text-align: center;
+    color:#35123A;
+    line-height: 1.8rem;
+    margin-bottom: 10px;
+}
+.img5 {
+    /* background: #5827B4; */
+    display: flex;
+    grid-area: img;
+    justify-content: center;
+    object-fit: cover;
+    height: auto;
+}
+
+.section5 {
+ text-align: center;
+ width: 1024px;
+ margin: 0 auto;
+ color:#35123A;
+ background: #ffffff;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+}
+
+.pessoa {
+    text-align: center;
+    margin: 10px;
+    color:#35123A;
+}
+.pessoa p{
+    color: #35123A;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: #F3EFFE;
+    color: #5827B4;
+}
+.footer ul {
+    display: flex;
+   
+}
+.footer .logo2 {
+    color: #5827B4;
+}
+
+.footer .links ul li a{
+    margin-left: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #5827B4;
 }
