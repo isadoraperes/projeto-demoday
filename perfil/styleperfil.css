@@ -1,0 +1,35 @@
+body, ul, li, p, a {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: 'PT Mono', monospace;
+    text-decoration: none;
+    color: #F3EFFE;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: #5827B4;
+    color: white;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar .links ul li {
+    margin-left: 20px;
+    list-style: none;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+/* MAIN */
+
+main {
+    background-color: #5827B4;
+    width: 100%;
+}
