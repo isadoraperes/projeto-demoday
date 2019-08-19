@@ -16,7 +16,7 @@ form{
     justify-content: space-around;
     padding: 8%;
 }
-form label, input{
+form label, input, select{
     margin: 5%;
 }
 
@@ -29,6 +29,16 @@ input{
     border-radius: 5px;
     height: 2.5em;
     padding-left: 5%;
+}
+
+.genero{
+    background-color: #5827B4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 80%;
+    height: 2.5em;
+    padding-left: 5%;  
 }
 
 .button{
