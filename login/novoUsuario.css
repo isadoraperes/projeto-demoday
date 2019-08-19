@@ -1,0 +1,57 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.caixaNovoUsuario{
+    background-color: #F3EFFE;
+    border-radius: 5px;
+    margin: 10% auto;
+    width: 40%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8%;
+}
+form label, input, select{
+    margin: 5%;
+}
+
+label{
+    color: #5827B4;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    height: 2.5em;
+    padding-left: 5%;
+}
+
+.genero{
+    background-color: #5827B4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 80%;
+    height: 2.5em;
+    padding-left: 5%;  
+}
+
+.button{
+    background-color: #FF4074;
+    color: white;
+    font-family: PT mono;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button:hover{
+    border: solid #5827B4 1.5px;
+}
