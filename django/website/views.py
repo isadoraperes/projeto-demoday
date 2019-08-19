@@ -3,7 +3,10 @@ from website.models import Pessoa, Categoria, Curso
 
 # Create your views here.
 
-#verificar se a home precisa de uma função aqui
+#subir a home
+def home(request):
+    context = {}
+    return render(request, 'home.html', context)
 
 #cadastrar novo usuário na plataforma
 def cadastrar(request):
