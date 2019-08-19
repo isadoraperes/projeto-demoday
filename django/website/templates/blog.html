@@ -1,57 +1,34 @@
 {% extends 'shared/layout.html' %}
+{% load staticfiles %}
 {% block conteudo %}
-
-<!--<div class="rosa">para dar o fundo rosa-->
-    <header>  
-        <div class="fundo">
-            <div class="caixaCinza">
-                <h1></h1>
-                <p class="p1">Programar é para todos </p>
-            </div>
-            <div>
-                <p class="aprenda">Aprenda a programar o seu futuro. Online, gratuito e no seu tempo. A gente te ajuda!</p>
-                    <button class="b1">Começar</button>
-                    <button class="b2">O projeto</button>
-            </div>
-        </div>
-    </header>
-    <section>
-        <div class="caixaCinzaT">
-            <h3>título....</h3>
-        </div>
-        <hr>
-        <div class="caixaCinza2">
-            <p>Acreditamos....</p><!--Falta completar o texto-->
-        </div>
-        <div class="imgSection"></div><!--imagem mulheres tem que ser colocada no CSS como background-->
-    </section>
-    <article>
-        <div class="caixaCinzaes"> 
-            <p>O que nos move</p>
-        </div>
-        <div class="imgArticle1"></div>
-        <div class="textoes">
-            <p>Voce....</p> <!--falta completar o texto-->
-        </div>
-        <button class="b3">Junte-se a nós</button>
-        <button class="b4">Leia mais</button>
-        <div class="caixaCinzaT2">
-            <p>Título...</p><!--Falta completar-->
-        </div>
-        <div class="caixaCinzaS">
-            <p>Somos...</p><!--Falta completar-->
-        </div>
-        <div class="imgArticle2"></div>
-    </article>    
-    <main>
-     <div class="caixaCinzadr"> 
-        <p>Nossa história</p>
-     </div>
-     <div class="textodr">
-         <p>Através...</p><!--Falta completar-->
-         <button class="b5">Acompanhe a gente nas redes sociais</button>
-        </div>
-        <div class="imagemmain"></div>
-    </main>
-
+<section class="about">
+    <h1 class="p1">Artigos</h1>
+    <p class="blog">Escritos por nós para ajudar a todas.</p>
+</section>
+<section class="articles">
+    <div class="card">
+        <img class="image" src="{% static 'img/vr.png' %}" alt="">
+        <p class="description">Como fazer produtos focados no usuário</p>
+    </div>
+    <div class="card">
+        <img class="image"  src="{% static 'img/vr.png' %}" alt="">
+        <p class="description">Conheça as maiores tendências em 2019</p>
+    </div>
+    <div class="card">
+        <img class="image" src="{% static 'img/vr.png' %}" alt="">
+        <p class="description">Saiba por onde começar</p>
+    </div>
+    <div class="card">
+        <img class="image" src="{% static 'img/vr.png' %}" alt="">
+        <p class="description">Você é capaz sim e vamos te dizer o porquê</p>
+    </div>
+    <div class="card">
+        <img class="image" src="{% static 'img/vr.png' %}" alt="">
+        <p class="description">Java x JavaScript</p>
+    </div>
+    <div class="card">
+        <img class="image" src="{% static 'img/vr.png' %}" alt="">
+        <p class="description">Entenda nosso propósito</p>
+    </div>
+</section>
 {% endblock %}

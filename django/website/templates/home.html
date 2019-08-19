@@ -1,57 +1,115 @@
 {% extends 'shared/layout.html' %}
+{% load staticfiles %}
 {% block conteudo %}
-
-<!--<div class="rosa">para dar o fundo rosa-->
-    <header>  
-        <div class="fundo">
-            <div class="caixaCinza">
-                <h1></h1>
-                <p class="p1">Programar é para todos </p>
+<header>
+    <div class="container">
+        <div class="conteudo">
+            <div class="text">
+                <h1 class="pink">Programar é para todas!</h1>
+                <p class="aprenda">Aprenda a programar o seu futuro. Online, gratuito e no seu tempo.</p>
             </div>
-            <div>
-                <p class="aprenda">Aprenda a programar o seu futuro. Online, gratuito e no seu tempo. A gente te ajuda!</p>
-                    <button class="b1">Começar</button>
-                    <button class="b2">O projeto</button>
+            <div class="btn1">
+                <button class="b1">Começar</button>
+                <button class="b1">O projeto</button>
             </div>
         </div>
-    </header>
-    <section>
-        <div class="caixaCinzaT">
-            <h3>título....</h3>
+        <div class="img1">
+            <img src="{% static 'img/vr.png' %}" alt="">
         </div>
-        <hr>
-        <div class="caixaCinza2">
-            <p>Acreditamos....</p><!--Falta completar o texto-->
+    </div>
+</header>
+<section id="projeto" class="section1">  
+    <div class="container2">
+        <div class="text2">
+            <h3>Programando a diferença</h3>
+            <p>Acreditamos na revolução do mundo através da educação e da tecnologia.</p>
         </div>
-        <div class="imgSection"></div><!--imagem mulheres tem que ser colocada no CSS como background-->
-    </section>
-    <article>
-        <div class="caixaCinzaes"> 
-            <p>O que nos move</p>
+        <div class="img2">
+            <img src="{% static 'img/2.png' %}" alt="">
         </div>
-        <div class="imgArticle1"></div>
-        <div class="textoes">
-            <p>Voce....</p> <!--falta completar o texto-->
+    </div>
+</section>
+<main>
+    <div class="container3">
+        <div class="conteudo2">
+            <div class="text3">
+                <h3 class="p1">O que nos move</h3>
+                <p class="aprenda">
+                    Você sabia que o mercado de Tecnologia da Informação têm 70 mil vagas em aberto até 2024? E que a participação feminina é menor que 20% nessa área? Acreditamos no potencial e na força feminina para mudar o mundo e, por isso, criamos a Code Jobs! Uma plataforma para capacitar e preparar mulheres na área da TI, garantindo que tenham um espaço para aprender e compartilhar conhecimento. 
+                </p>
+                <p class="aprenda">
+                    Democratizando o acesso à tecnologia, procurando garantir que mais mulheres tenham espaço para aprender e se empoderarem. Os cursos que realizamos vão desde introdução à programação, até tópicos mais avançados buscando amparar mulheres de todos os níveis. As nossas atividades são oferecidas a um preço acessível e disponibilizamos muitos materiais e informações sem custo.
+                </p>
+            </div>
+            <div class="btn2">
+                <button class="b1">Junte-se a nós</button>
+                <button class="b1">Leia mais</button>
+            </div>
         </div>
-        <button class="b3">Junte-se a nós</button>
-        <button class="b4">Leia mais</button>
-        <div class="caixaCinzaT2">
-            <p>Título...</p><!--Falta completar-->
+        <div class="img3">
+            <img src="{% static 'img/girlcode.png' %}" alt="">
         </div>
-        <div class="caixaCinzaS">
-            <p>Somos...</p><!--Falta completar-->
+    </div>
+</main>
+<section class="section3">
+    <div class="container4">
+        <div class="img4">
+            <img src="{% static 'img/vr.png' %}" alt="">
         </div>
-        <div class="imgArticle2"></div>
-    </article>    
-    <main>
-     <div class="caixaCinzadr"> 
-        <p>Nossa história</p>
-     </div>
-     <div class="textodr">
-         <p>Através...</p><!--Falta completar-->
-         <button class="b5">Acompanhe a gente nas redes sociais</button>
+        <div id="sobre" class="text2">
+            <h3 class="p1">Who run the world?</h3>
+            <p>Somos mulheres que agem para construir uma rede de apoio para mulheres na TI </p>
         </div>
-        <div class="imagemmain"></div>
-    </main>
-
+    </div>
+</section>
+<section class="section4"> 
+    <div class="container5">
+    <div class="conteudo5">
+        <div class="text">
+            <h3 class="p1">Nossa história</h3>
+             <article class="articulo">
+                    Através de uma iniciativa do Facebook em parceria com a Mastertech tivemos a oprotunidade de nos conhecer e formar a equipe para criar o projeto CodeJobs. Sendo mulheres iniciando e buscando se profissionalizar no mercado de TI encontramos diversas narrativas parecidas com as nossas sobre as dificuldades que enfrentamos nessa área. A partir disso, reunimos nossas habilidades e nossas experiências, criamos uma pesquisa para entender o mercado de recrutamento e nos unimos para construir essa plataforma de apoio a todas as mulheres que desejam ingressar no mundo da TI também.
+            </article> 
+        </div> 
+    </div>
+    <div class="img5">
+        <img src="{% static 'img/together.png' %}" alt="">
+    </div>
+    </div>
+</section>
+<section class="section5">
+    <h3>A equipe</h3>
+    <div class="time">
+        <div class="pessoa">
+            <img src="{% static 'img/isa.png' %}" alt="">
+            <p>Isadora</p>
+            <a href="#"><img src="{% static 'img/in-rosa.png' %}" alt=""></a>
+        </div>
+        <div class="pessoa">
+            <img src="{% static 'img/genifer.png' %}" alt="">
+            <p>Genifer</p>
+            <a href="#"><img src="{% static 'img/in-rosa.png' %}" alt=""></a>
+        </div>
+        <div class="pessoa">
+            <img src="{% static 'img/erica.png' %}" alt="">
+            <p>Érica</p>
+            <a href="#"><img src="{% static 'img/in-rosa.png' %}" alt=""></a>
+        </div>
+        <div class="pessoa">
+            <img src="{% static 'img/emilly.png' %}" alt="">
+            <p>Emilly</p>
+            <a href="#"><img src="{% static 'img/in-rosa.png' %}" alt=""></a>
+        </div>
+        <div class="pessoa">
+            <img src="{% static 'img/erica.png' %}" alt="">
+            <p>Leticia</p>
+            <a href="#"><img src="{% static 'img/in-rosa.png' %}" alt=""></a>
+        </div>
+        <div class="pessoa">
+            <img src="{% static 'img/gabi.png' %}" alt="">
+            <p>Gabrielle</p>
+            <a href="#"><img src="{% static 'img/in-rosa.png' %}" alt=""></a>
+        </div>
+    </div>
+</section>
 {% endblock %}

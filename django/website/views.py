@@ -3,10 +3,20 @@ from website.models import Pessoa, Categoria, Curso
 
 # Create your views here.
 
-#subir a home
+#subir home
 def home(request):
     context = {}
     return render(request, 'home.html', context)
+
+#subir blog
+def blog(request):
+    context = {}
+    return render(request, 'blog.html', context)
+
+#subir perfil
+def perfil(request):
+    context = {}
+    return render(request, 'perfil.html', context)
 
 #cadastrar novo usuário na plataforma
 def cadastrar(request):
@@ -25,6 +35,7 @@ def cadastrar(request):
 
     return render(request, 'cadastrar.html', context)
 
+#efetuar login
 def login(request):
 
     if request.method == 'POST':
@@ -50,9 +61,7 @@ def login(request):
 #         return render(request, 'login.html',{'msg' : 'Invalido'})
 #     return render(request, 'login.html', context)
 
-# def perfil(request):
 
-#     context = {}
 
 
 
