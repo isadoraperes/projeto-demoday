@@ -14,7 +14,7 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 8%;
+    padding: 10%;
 }
 form label, input{
     margin: 3%;
@@ -22,6 +22,7 @@ form label, input{
 
 label{
     color: #5827B4;
+    font-weight: bolder;
 }
 
 input{
@@ -40,6 +41,7 @@ input{
     border: none;
     border-radius: 5px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .novoUsuario{
@@ -48,7 +50,7 @@ input{
     font-size: 1.1em;
     font-weight: bold;
     margin-top: 5%;
-
+    text-align: center;
 }
 
 .novoUsuario:hover{

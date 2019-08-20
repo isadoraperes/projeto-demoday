@@ -18,6 +18,11 @@ def perfil(request):
     context = {}
     return render(request, 'perfil.html', context)
 
+#subir login
+def login(request):
+    context = {}
+    return render(request, 'login.html', context)
+
 #cadastrar novo usuário na plataforma
 def cadastrar(request):
     
@@ -36,19 +41,21 @@ def cadastrar(request):
     return render(request, 'cadastrar.html', context)
 
 #efetuar login
-def login(request):
+def acessar(request):
 
-    if request.method == 'POST':
-        email_acesso = request.POST.get('email')
+    if request.method == 'GET':
+        context = {}
+        email_acesso = request.GET.get('email')
         pessoa = Pessoa.objects.filter(email=email_acesso).first()
 
         if pessoa is None:
-            context = {'msg':'Cadastre-se para acesso ao site'}
+            context = {'msg':'Cadastre-se para acessar ao site'}
             return render(request,'cadastrar.html', context)
         else:
             context = {'email' : pessoa}
             return render(request, 'perfil.html', context)
     return render(request, 'login.html', {})
+
 #     context = {}
 #     if request.method == 'POST'
 #         pessoa_email = request.POST.get('email')

@@ -1,57 +1,61 @@
-main{
+.mainCadastrar {
     display: flex;
     justify-content: center;
 }
 
-.caixaNovoUsuario{
+.caixaNovoUsuario {
     background-color: #F3EFFE;
     border-radius: 5px;
     margin: 10% auto;
     width: 40%;
 }
 
-form{
+.formUser {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 8%;
 }
-form label, input, select{
-    margin: 5%;
-}
 
-label{
+.labelUser {
+    font-weight: bold;
+    padding-top: 5%;
     color: #5827B4;
 }
 
-input{
+.inputUser, .selectUser {
     border: none;
     border-radius: 5px;
-    height: 2.5em;
+    height: 2.7em;
     padding-left: 5%;
 }
 
-.genero{
+.selectUser {
+    width: 100%;
+}
+
+.genero {
     background-color: #5827B4;
     border: none;
     border-radius: 5px;
     color: white;
-    width: 80%;
-    height: 2.5em;
-    padding-left: 5%;  
+    height: 2.7em;
+    padding-left: 5%;
 }
 
-.button{
+.buttonCadastrar {
     background-color: #FF4074;
     color: white;
-    font-family: PT mono;
+    font-family: 'PT mono', monospace;
     font-size: 1.3em;
     font-weight: bold;
     border: none;
     border-radius: 5px;
     padding: 10px;
+    margin-top: 5%;
+    cursor: pointer;
 }
 
-.button:hover{
+.buttonCadastrar:hover {
     border: solid #5827B4 1.5px;
 }

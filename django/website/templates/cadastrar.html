@@ -1,4 +1,31 @@
 {% extends 'shared/layout.html' %}
+{% load staticfiles %}
+{% block conteudo %}
+
+<main class="mainCadastrar">
+    <div class="caixaNovoUsuario">
+        <form class="formUser" action="/perfil" method="POST">
+            <label class="labelUser" for="nome">Nome:</label>
+            <input class="inputUser" type="text" name="nome" placeholder="digite seu nome aqui..." required autofocus>
+            <label class="labelUser" for="sobrenome">Sobrenome:</label>
+            <input class="inputUser" type="text" name="sobrenome" placeholder="digite seu sobrenome aqui..." required >
+            <label class="labelUser" for="genero">Gênero:</label>
+            <select class="genero" name="genero" class="genero">
+                <option value="feminino">Feminino</option>
+                <option value="outros">Outro</option>
+            </select>
+            <label for="email">E-mail:</label>
+            <input class="inputUser" type="email" name="email" placeholder="digite seu e-mail aqui..." required >
+            <label class="labelUser" for="senha">Senha:</label>
+            <input class="inputUser" type="password"  name="senha" placeholder="digite sua senha aqui..." required >
+            <label class="labelUser" for="senha">Confirmar senha:</label>
+            <input class="inputUser" type="password" name="confirmarSenha" placeholder="confirme sua senha aqui..." required >
+            <a href="/perfil"><input class="buttonCadastrar" type="submit" value="Cadastrar"></a>
+        </form>
+    </div>
+</main>
+
+{% endblock %}
 
 
 

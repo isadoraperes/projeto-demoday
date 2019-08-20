@@ -1,1 +1,17 @@
 {% extends 'shared/layout.html' %}
+{% load staticfiles %}
+{% block conteudo %}
+
+<main class="mainLogin">
+    <div class="caixaLogin">
+        <form class="formLogin" action="/perfil" method="GET">
+            <label class="labelForm" for="usuario">E-mail:</label>
+            <input class="inputForm" type="text" name="usuario" placeholder="digite seu e-mail..." required autofocus>
+            <label class="labelForm" for="senha">Senha:</label>
+            <input class="inputForm" type="password" placeholder="digite sua senha..." required>
+            <input class="inputForm buttonEntrar" type="submit" value="Entrar">
+            <a class="novoUsuario" href="/cadastrar">Não tenho conta</a>
+        </form>
+    </div>
+</main>
+{% endblock %}

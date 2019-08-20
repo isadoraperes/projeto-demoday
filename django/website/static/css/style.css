@@ -3,7 +3,6 @@
 body, ul, li, p, a {
     margin: 0px;
     padding: 0px;
-    font-size: 1.2rem;
     font-family: 'PT Mono', monospace;
     text-decoration: none;
     color: #F3EFFE;
@@ -20,11 +19,12 @@ body, ul, li, p, a {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 80px;
     background: #5827B4;
     color: white;
+    padding: 0px 25px;
 }
 
 .nav-bar ul {
@@ -46,25 +46,25 @@ nav {
     border: none;
     color: white;
     font-family: 'PT Mono', monospace;
-    font-size: 1.2rem;
     font-weight: 600;
     padding: 10px; 
     cursor: pointer; 
 }
 
-footer{
+footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 50px;
     background: #F3EFFE;
     color: #5827B4;
-    margin-top: 60px;
-    padding: 20px 0px;
+    padding: 20px 25px;
 }
 
 .footer ul {
     display: flex;
+    list-style: none;
+    align-items: center;
 }
 
 .footer .logo2 {
@@ -73,8 +73,6 @@ footer{
 
 .footer .links ul li a{
     margin-left: 20px;
-    list-style: none;
-    text-decoration: none;
     color: #5827B4;
 }
 
@@ -93,6 +91,7 @@ header {
     grid-template-areas: "conteudo img img";
     justify-content: center;
     height: 500px;
+    margin-bottom: 10px;
 }
 
 .conteudo {
@@ -132,6 +131,7 @@ header {
     font-size: 1.2rem;
     font-weight: 600;
     padding: 15px;
+    cursor: pointer;
 }
 
 .img1 {
@@ -163,16 +163,16 @@ header {
 }
 
 .text2 h3{
-    padding-bottom: 40px;
     color: #FF4074;
 }
 
 .text2 p{
     color: #35123A;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .img2 {
+    display: flex;
     grid-area: sobrepor;
     text-align: center;
 }
@@ -183,6 +183,8 @@ header {
     grid-template-areas: "img conteudo conteudo";
     height: 500px;
     justify-content: center;
+    width: 1024px;
+    margin: 0 auto;
 }
 
 .conteudo2 {
@@ -190,9 +192,10 @@ header {
     flex-direction: column;
     grid-area: conteudo;
     justify-content: center;
-    margin-right: 20px;
+    margin-left: 20px;
     z-index: 1;
 }
+
 
 .container4{
     background: #FFFFFF;
@@ -259,6 +262,12 @@ header {
     margin-top: 10px;
 }
 
+.p2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:#5827B4;
+}
+
 .articulo {
     line-height: 1.5rem;
     font-size: 0.8rem;
@@ -278,13 +287,14 @@ header {
     text-align: center;
     width: 1024px;
     margin: 0 auto;
-    color:#35123A;
-    background: #ffffff;
+    color:#5827b4;
+    background: #FFF;
+    padding: 45px 0 55px 0;
 }
 
 .time {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .pessoa {
@@ -293,8 +303,13 @@ header {
     color:#35123A;
 }
 
-.pessoa p{
+.linkedin {
+    padding: 10px;
+}
+
+.pessoa p {
     color: #35123A;
+    margin-bottom: 10px;
 }
 
 /* FIM HOME */
@@ -329,8 +344,8 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 30px;
-    margin-bottom: 20px;
+    grid-gap: 60px;
+    margin-bottom: 60px;
     max-width: 1024px;
 }
 
@@ -353,14 +368,149 @@ header {
     grid-area: card-box;
     padding: 20px;
     color: white;
-    background: rgba(88, 39, 180, 0.37);
+    background: rgba(88, 39, 180, 0.64);
     grid-row: 2/3;
-    border-radius: 0 0 10px 10px;;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
 }
 
 /* FIM BLOG */
 
-/* login */
+/* LOGIN */
+
+.mainLogin {
+    display: flex;
+    justify-content: center;
+}
+
+.caixaLogin {
+    background-color: #F3EFFE;
+    border-radius: 5px;
+    margin: 10% auto;
+    width: 33%;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10%;
+}
+
+.labelForm, .inputForm {
+    margin: 3%;
+}
+
+.labelForm {
+    color: #5827B4;
+    font-weight: bolder;
+}
+
+.inputForm {
+    border: none;
+    border-radius: 5px;
+    height: 2.5em;
+    padding-left: 5%;
+}
+
+.buttonEntrar {
+    background-color: #FF4074;
+    color: white;
+    font-family: 'PT mono', monospace;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.buttonEntrar:hover {
+    border: solid #5827B4 1.5px;
+}
+
+.novoUsuario{
+    color: #5827B4;
+    font-family: 'PT mono', monospace;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.novoUsuario:hover{
+    text-decoration: underline;
+}
+
+/* FIM LOGIN */
+
+/* CADASTRAR */
+
+.mainCadastrar {
+    display: flex;
+    justify-content: center;
+}
+
+.caixaNovoUsuario {
+    background-color: #F3EFFE;
+    border-radius: 5px;
+    margin: 10% auto;
+    width: 40%;
+}
+
+.formUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8%;
+}
+
+.labelUser {
+    font-weight: bold;
+    padding-top: 5%;
+    color: #5827B4;
+}
+
+.inputUser, .selectUser {
+    border: none;
+    border-radius: 5px;
+    height: 2.7em;
+    padding-left: 5%;
+}
+
+.selectUser {
+    width: 100%;
+}
+
+.genero {
+    background-color: #5827B4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 2.7em;
+    padding-left: 5%;
+}
+
+.buttonCadastrar {
+    background-color: #FF4074;
+    color: white;
+    font-family: 'PT mono', monospace;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.buttonCadastrar:hover {
+    border: solid #5827B4 1.5px;
+}
+
+/* FIM CADASTRAR */
 
 /* PERFIL */
 
