@@ -5,7 +5,7 @@ A plataforma gameficada para aprendizado online. Onde conhecimento gera recrutam
 ## Realizado pelo time:
 @isadoraperes, @GeniferGonzalezSantos, @EmillyNegroni, @EricaSobral, @LeticiaFerreira e @gabrielleprelihack.
 
-O projeto foi idealizado a um ano atrás. E, para encerramento do curso fullstack fornecido pela Estação Hack do Facebook, CodeJobs ganha sua primeira versão e seu primeiro deploy. [Acesse CodeJobs pelo heroku!] (http://girlscodejobs.herokuapp.com)
+O projeto foi idealizado a um ano atrás. E, para encerramento do curso fullstack fornecido pela Estação Hack do Facebook, CodeJobs ganha sua primeira versão e seu primeiro deploy. [CodeJobs no Heroku!](http://girlscodejobs.herokuapp.com)
 
 É com muita felicidade e muito orgulho que iniciamos esse projeto ao mundo!
 > 💻 print('hello world!')
